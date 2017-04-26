@@ -1,0 +1,169 @@
+body {
+  font-family: arial;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  background-color: grey;
+}
+
+/*global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button1 {
+  height: 25px;
+  color: blue;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+/*header*/
+header {
+  color: white;
+  background: orange;
+  padding-top: 55px;
+  padding-top: 35px;
+  min-height: 90px;
+  border-bottom: orange 7px solid;
+}
+
+header a{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+header li{
+  float: left;
+  padding: 0 20px 0 20px;
+  display: inline;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header #branding h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: blue;
+}
+
+header p:hover{
+  color: blue;
+}
+
+header nav{
+  float: right;
+  margin-top: 5px;
+}
+
+header .highlight, header .current a{
+  color: blue;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+header a:hover{
+  color: grey;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+/*showcase*/
+#showcase {
+  background-image:url(https://s-media-cache-ak0.pinimg.com/originals/bf/a5/0c/bfa50ce8db7093af42025ba92662524c.jpg);
+  min-height: 400px;
+  text-align: center;
+  color: white;
+}
+
+#showcase h3{
+  margin-top: 80px;
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+#showcase p{
+  font-size: 25px;
+}
+
+/*newsletter*/
+#newsletter{
+  padding: 5px;
+  background-color: orange;
+}
+
+#newsletter h4{
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+#newsletter form{
+  float: left;
+  padding-top: 10px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  width: 250px;
+  height: 35px;
+}
+
+#newsletter button{
+  background-color: blue;
+  height: 30px;
+}
+
+/*boxes*/
+#boxes .box {
+  padding-top: 10px;
+  width: 30%;
+  height: 250px;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  color: blue;
+  font-family: sans-serif;
+}
+
+#boxes h5{
+  font-size: 20px;
+  font-family: cursive;
+}
+
+/*images*/
+img {
+  height: 100px;
+  width: 100px;
+}
+
+/*footer*/
+footer {
+  background-color: orange;
+  text-align: justify;
+  font-weight: bold;
+  padding: 2px;
+}
+
+/*paragraph*/
+p {
+  color: red;
+}
